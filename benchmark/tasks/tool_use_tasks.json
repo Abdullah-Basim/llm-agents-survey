@@ -1,0 +1,12 @@
+[
+  {"id": "t1", "category": "tool_use", "question": "What is 1234 multiplied by 5678? Use the calculator tool to be precise.", "expected": "7006652"},
+  {"id": "t2", "category": "tool_use", "question": "Compute (4321 + 8765) * 12 - 999 using the calculator tool.", "expected": "156033"},
+  {"id": "t3", "category": "tool_use", "question": "What is the square root of 1521? Use the calculator tool.", "expected": "39"},
+  {"id": "t4", "category": "tool_use", "question": "Compute 2^16 with the calculator tool.", "expected": "65536"},
+  {"id": "t5", "category": "tool_use", "question": "What is 987 * 654 - 321? Use the calculator tool.", "expected": "645177"},
+  {"id": "t6", "category": "tool_use", "question": "Use the search tool to find: who was the CEO of Microsoft in 2024?", "expected": "satya nadella|nadella"},
+  {"id": "t7", "category": "tool_use", "question": "Use the search tool to find: in which country is the city of Lahore located?", "expected": "pakistan"},
+  {"id": "t8", "category": "tool_use", "question": "Use the search tool to find: who wrote the novel 'To Kill a Mockingbird'?", "expected": "harper lee|lee"},
+  {"id": "t9", "category": "tool_use", "question": "Compute 15% of 4800 using the calculator tool.", "expected": "720"},
+  {"id": "t10", "category": "tool_use", "question": "Use the search tool to find: what is the capital of Australia?", "expected": "canberra"}
+]

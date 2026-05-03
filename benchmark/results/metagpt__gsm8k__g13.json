@@ -1,0 +1,13 @@
+{
+  "framework": "metagpt",
+  "task_id": "g13",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "To find out how much Janet makes every day at the farmers' market, we need to follow these steps:\n\n1. **Calculate the total number of eggs laid by the ducks per day**: \n   Janet's ducks lay 16 eggs per day.\n\n2. **Calculate the number of eggs she eats for breakfast**: \n   Janet eats 3 eggs for breakfast every morning.\n\n3. **Calculate the number of eggs she uses for baking muffins**: \n   Janet uses 4 eggs for baking muffins every day.\n\n4. **Calculate the total number of eggs consumed by Janet**: \n   Total eggs consumed = Eggs for breakfast + Eggs for baking\n   Total eggs consumed = 3 + 4 = 7 eggs.\n\n5. **Calculate the number of eggs remaining after consumption**: \n   Remaining eggs = Total eggs laid - Total eggs consumed\n   Remaining eggs = 16 - 7 = 9 eggs.\n\n6. **Calculate the total earnings from selling the remaining eggs**: \n   Janet sells the remaining eggs for $2 each.\n   Total earnings = Remaining eggs \u00d7 Price per egg\n   Total earnings = 9 \u00d7 2 = $18.\n\nFinal answer: 18.",
+  "latency_s": 3.455,
+  "prompt_tokens": 103,
+  "completion_tokens": 244,
+  "cost_usd": 0.000162,
+  "error": "",
+  "extra": {}
+}

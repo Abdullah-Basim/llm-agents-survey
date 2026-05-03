@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "t8",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: Harper Lee wrote the novel 'To Kill a Mockingbird'.",
+  "latency_s": 4.543,
+  "prompt_tokens": 576,
+  "completion_tokens": 42,
+  "cost_usd": 0.000112,
+  "error": "",
+  "extra": {}
+}

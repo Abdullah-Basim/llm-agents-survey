@@ -1,0 +1,13 @@
+{
+  "framework": "metagpt",
+  "task_id": "t7",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "It seems that the search did not return any results. However, I can provide the information: the city of Lahore is located in Pakistan. \n\nFinal answer: Pakistan",
+  "latency_s": 3.371,
+  "prompt_tokens": 260,
+  "completion_tokens": 57,
+  "cost_usd": 7.3e-05,
+  "error": "",
+  "extra": {}
+}

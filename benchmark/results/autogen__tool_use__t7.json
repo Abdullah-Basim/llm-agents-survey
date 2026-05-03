@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "t7",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Lahore is located in Pakistan. \n\nFinal answer: Pakistan\nTERMINATE",
+  "latency_s": 3.777,
+  "prompt_tokens": 226,
+  "completion_tokens": 40,
+  "cost_usd": 5.8e-05,
+  "error": "",
+  "extra": {}
+}

@@ -1,0 +1,12 @@
+openai>=1.50,<2.0
+tiktoken>=0.7
+python-dotenv>=1.0
+matplotlib>=3.8
+pandas>=2.2
+numpy>=1.26
+duckduckgo-search>=6.2
+crewai>=0.80
+langgraph>=0.2
+langchain-openai>=0.2
+langchain-community>=0.3
+pyautogen>=0.4

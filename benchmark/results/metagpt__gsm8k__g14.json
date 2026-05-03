@@ -1,0 +1,13 @@
+{
+  "framework": "metagpt",
+  "task_id": "g14",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "To calculate Eliza's earnings for the week, we need to break down her hours into regular and overtime hours.\n\n1. **Identify regular and overtime hours:**\n   - Regular hours: 40 hours\n   - Overtime hours: 45 hours - 40 hours = 5 hours\n\n2. **Calculate regular pay:**\n   - Regular pay rate: $10 per hour\n   - Regular pay for 40 hours: \n     \\[\n     40 \\text{ hours} \\times 10 \\text{ dollars/hour} = 400 \\text{ dollars}\n     \\]\n\n3. **Calculate overtime pay:**\n   - Overtime pay rate: 1.2 times the regular pay rate\n   - Overtime pay rate: \n     \\[\n     1.2 \\times 10 \\text{ dollars/hour} = 12 \\text{ dollars/hour}\n     \\]\n   - Overtime pay for 5 hours: \n     \\[\n     5 \\text{ hours} \\times 12 \\text{ dollars/hour} = 60 \\text{ dollars}\n     \\]\n\n4. **Calculate total earnings:**\n   - Total earnings = Regular pay + Overtime pay\n   - Total earnings: \n     \\[\n     400 \\text{ dollars} + 60 \\text{ dollars} = 460 \\text{ dollars}\n     \\]\n\nFinal answer: 460",
+  "latency_s": 4.989,
+  "prompt_tokens": 97,
+  "completion_tokens": 288,
+  "cost_usd": 0.000187,
+  "error": "",
+  "extra": {}
+}

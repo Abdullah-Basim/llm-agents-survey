@@ -1,0 +1,13 @@
+framework,task_category,accuracy,avg_cost,avg_latency
+autogen,collab,100.0,0.0005,11.5
+autogen,gsm8k,93.3,0.0002,4.8
+autogen,tool_use,100.0,0.0001,3.4
+crewai,collab,100.0,0.0012,26.9
+crewai,gsm8k,100.0,0.0002,5.2
+crewai,tool_use,100.0,0.0001,3.5
+langgraph,collab,100.0,0.0004,9.5
+langgraph,gsm8k,93.3,0.0002,4.8
+langgraph,tool_use,90.0,0.0001,3.1
+metagpt,collab,100.0,0.001,18.2
+metagpt,gsm8k,93.3,0.0002,4.5
+metagpt,tool_use,100.0,0.0001,2.9

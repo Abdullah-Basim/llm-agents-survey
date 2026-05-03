@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "t3",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "The square root of 1521 is 39. \n\nFinal answer: 39\nTERMINATE",
+  "latency_s": 2.074,
+  "prompt_tokens": 214,
+  "completion_tokens": 39,
+  "cost_usd": 5.6e-05,
+  "error": "",
+  "extra": {}
+}

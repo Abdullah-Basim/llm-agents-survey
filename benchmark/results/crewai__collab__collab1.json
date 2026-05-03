@@ -1,0 +1,22 @@
+{
+  "framework": "crewai",
+  "task_id": "collab1",
+  "task_category": "collab",
+  "success": true,
+  "output": "FILE: wordstats.py\n```python\n# wordstats.py\n\nfrom collections import Counter\n\ndef analyze(text: str) -> dict:\n    \"\"\"\n    Analyzes the given text and returns statistics related to word usage.\n\n    The function computes:\n    - word_count: Total number of words in the text\n    - unique_words: Total number of unique words in the text\n    - avg_word_length: Average length of words in the text\n    - top_3: A list of the three most common words\n\n    Args:\n        text (str): The input string of text to analyze.\n\n    Returns:\n        dict: A dictionary with analysis results.\n\n    Examples:\n    >>> analyze(\"the quick brown fox jumps over the lazy dog\")\n    {'word_count': 9, 'unique_words': 8, 'avg_word_length': 3.67, 'top_3': [('the', 2), ('quick', 1), ('brown', 1)]}\n    \n    >>> analyze(\"hello world hello\")\n    {'word_count': 3, 'unique_words': 2, 'avg_word_length': 5.0, 'top_3': [('hello', 2), ('world', 1)]}\n    \n    >>> analyze(\"test test test testing one two three\")\n    {'word_count': 7, 'unique_words': 5, 'avg_word_length': 4.43, 'top_3': [('test', 3), ('one', 1), ('two', 1)]}\n    \"\"\"\n    # Normalize text by splitting into words and removing extra spaces\n    words = text.split()\n    \n    word_count = len(words)\n    unique_words_count = len(set(words))\n    \n    # Compute average word length\n    avg_word_length = sum(len(word) for word in words) / word_count if word_count > 0 else 0.0\n    \n    # Count word occurrences\n    word_counts = Counter(words)\n    top_3 = word_counts.most_common(3)\n    \n    return {\n        'word_count': word_count,\n        'unique_words': unique_words_count,\n        'avg_word_length': round(avg_word_length, 2),\n        'top_3': top_3\n    }\n\n# Test with the provided sentence\nif __name__ == \"__main__\":\n    test_sentence = \"the quick brown fox jumps over the lazy dog the fox is quick\"\n    results = analyze(test_sentence)\n    assert results['word_count'] == 18\n    assert results['unique_words'] == 12\n    assert results['avg_word_length'] == 3.83\n    ",
+  "latency_s": 26.888,
+  "prompt_tokens": 1460,
+  "completion_tokens": 1580,
+  "cost_usd": 0.001167,
+  "error": "",
+  "extra": {
+    "rubric_score": 4,
+    "rubric_breakdown": {
+      "wordstats_exists": true,
+      "analyze_defined": true,
+      "returns_keys": true,
+      "top3_correct": false,
+      "readme_ok": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "framework": "metagpt",
+  "task_id": "t10",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "It seems that I couldn't find any results for the query about the capital of Australia. However, I can provide the answer: the capital of Australia is Canberra. \n\nFinal answer: Canberra",
+  "latency_s": 3.585,
+  "prompt_tokens": 251,
+  "completion_tokens": 58,
+  "cost_usd": 7.2e-05,
+  "error": "",
+  "extra": {}
+}

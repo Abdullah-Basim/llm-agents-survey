@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "g2",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "To find out how much Weng earned for babysitting for 50 minutes, we can follow these steps:\n\n1. **Convert the time from minutes to hours**: \n   Since there are 60 minutes in an hour, we can convert 50 minutes to hours by dividing by 60.\n   \\[\n   \\text{Hours} = \\frac{50 \\text{ minutes}}{60 \\text{ minutes/hour}} = \\frac{50}{60} = \\frac{5}{6} \\text{ hours}\n   \\]\n\n2. **Calculate the earnings**: \n   Weng earns $12 per hour. To find out how much she earned for \\(\\frac{5}{6}\\) of an hour, we multiply her hourly rate by the number of hours she worked.\n   \\[\n   \\text{Earnings} = 12 \\text{ dollars/hour} \\times \\frac{5}{6} \\text{ hours}\n   \\]\n\n3. **Perform the multiplication**:\n   \\[\n   \\text{Earnings} = 12 \\times \\frac{5}{6} = \\frac{12 \\times 5}{6} = \\frac{60}{6} = 10 \\text{ dollars}\n   \\]\n\nThus, Weng earned $10 for babysitting for 50 minutes.\n\nFinal answer: 10",
+  "latency_s": 4.503,
+  "prompt_tokens": 66,
+  "completion_tokens": 280,
+  "cost_usd": 0.000178,
+  "error": "",
+  "extra": {}
+}

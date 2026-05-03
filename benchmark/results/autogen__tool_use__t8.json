@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "t8",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "The novel 'To Kill a Mockingbird' was written by Harper Lee. \n\nFinal answer: Harper Lee\nTERMINATE",
+  "latency_s": 3.364,
+  "prompt_tokens": 232,
+  "completion_tokens": 51,
+  "cost_usd": 6.5e-05,
+  "error": "",
+  "extra": {}
+}

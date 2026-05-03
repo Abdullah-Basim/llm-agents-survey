@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "t10",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "The capital of Australia is Canberra. \n\nFinal answer: Canberra\nTERMINATE",
+  "latency_s": 8.885,
+  "prompt_tokens": 378,
+  "completion_tokens": 36,
+  "cost_usd": 7.8e-05,
+  "error": "",
+  "extra": {}
+}

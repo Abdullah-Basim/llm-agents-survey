@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "g10",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "To solve the problem, we need to calculate Tina's earnings based on her hourly wage and the hours she works, including overtime.\n\n1. **Determine the regular hours and overtime hours:**\n   - Tina works 10 hours each day for 5 days.\n   - Total hours worked = 10 hours/day * 5 days = 50 hours.\n\n2. **Identify regular and overtime hours:**\n   - Regular hours = 8 hours/day * 5 days = 40 hours.\n   - Overtime hours = Total hours - Regular hours = 50 hours - 40 hours = 10 hours.\n\n3. **Calculate Tina's regular pay:**\n   - Regular pay = Regular hours * Hourly wage = 40 hours * $18.00/hour = $720.00.\n\n4. **Calculate the overtime pay:**\n   - Overtime pay rate = Hourly wage + 1/2 of hourly wage = $18.00 + ($18.00 * 0.5) = $18.00 + $9.00 = $27.00/hour.\n   - Overtime pay = Overtime hours * Overtime pay rate = 10 hours * $27.00/hour = $270.00.\n\n5. **Calculate total earnings:**\n   - Total earnings = Regular pay + Overtime pay = $720.00 + $270.00 = $990.00.\n\nFinal answer: $990.00",
+  "latency_s": 3.941,
+  "prompt_tokens": 99,
+  "completion_tokens": 292,
+  "cost_usd": 0.00019,
+  "error": "",
+  "extra": {}
+}

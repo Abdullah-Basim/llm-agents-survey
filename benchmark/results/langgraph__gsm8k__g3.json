@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "g3",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "Let's break down the problem step by step.\n\n1. **Determine how much money Betty currently has:**\n   - The wallet costs $100.\n   - Betty has half of the money she needs, so:\n     \\[\n     \\text{Amount Betty has} = \\frac{100}{2} = 50 \\text{ dollars}\n     \\]\n\n2. **Calculate how much money her parents give her:**\n   - Her parents give her $15.\n\n3. **Calculate how much money her grandparents give her:**\n   - Her grandparents give her twice as much as her parents:\n     \\[\n     \\text{Amount from grandparents} = 2 \\times 15 = 30 \\text{ dollars}\n     \\]\n\n4. **Calculate the total amount of money Betty will have after receiving money from her parents and grandparents:**\n   - Total money Betty has after receiving the gifts:\n     \\[\n     \\text{Total money} = \\text{Amount Betty has} + \\text{Amount from parents} + \\text{Amount from grandparents}\n     \\]\n     \\[\n     \\text{Total money} = 50 + 15 + 30 = 95 \\text{ dollars}\n     \\]\n\n5. **Determine how much more money Betty needs to buy the wallet:**\n   - The wallet costs $100, and Betty currently has $95:\n     \\[\n     \\text{Amount needed} = 100 - 95 = 5 \\text{ dollars}\n     \\]\n\nFinal answer: 5",
+  "latency_s": 4.872,
+  "prompt_tokens": 94,
+  "completion_tokens": 312,
+  "cost_usd": 0.000201,
+  "error": "",
+  "extra": {}
+}

@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "t5",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: 645177\nTERMINATE",
+  "latency_s": 2.048,
+  "prompt_tokens": 219,
+  "completion_tokens": 30,
+  "cost_usd": 5.1e-05,
+  "error": "",
+  "extra": {}
+}

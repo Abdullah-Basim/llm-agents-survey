@@ -1,0 +1,43 @@
+\begin{table}[t]
+\caption{Aggregate per-framework results across all $26$ runs per framework
+($15$ GSM8K $+$ $10$ tool-use $+$ $1$ collab) under the
+\texttt{gpt-4o-mini} backbone.}
+\label{tab:summary}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Framework} & \textbf{Acc.\,(\%)} & \textbf{Lat.\,(s)} & \textbf{Cost\,(\$)} & \textbf{In tok} & \textbf{Out tok} \\
+\midrule
+CrewAI    & 100.0 & 5.38 & 0.00020 & 553 & 198 \\
+AutoGen   & 96.2  & 4.55 & 0.00016 & 176 & 219 \\
+LangGraph & 92.3  & 4.29 & 0.00016 & 212 & 207 \\
+MetaGPT*  & 96.2  & 4.39 & 0.00017 & 232 & 223 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\\\raggedright\scriptsize Latency is mean wall-clock per task; cost uses
+published \texttt{gpt-4o-mini} prices ($\$0.150$/1M input,
+$\$0.600$/1M output). Token columns are per-task means.
+\end{table}
+
+\begin{table}[t]
+\caption{Per-task-category accuracy and mean cost (USD).}
+\label{tab:percat}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{\textbf{GSM8K}} & \multicolumn{2}{c}{\textbf{Tool use}} & \multicolumn{2}{c}{\textbf{Collab}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+\textbf{Framework} & Acc & \$ & Acc & \$ & Acc & \$ \\
+\midrule
+CrewAI    & 100.0 & 0.0002 & 100.0 & 0.0001 & 100.0 & 0.0012 \\
+AutoGen   &  93.3 & 0.0002 & 100.0 & 0.0001 & 100.0 & 0.0005 \\
+LangGraph &  93.3 & 0.0002 &  90.0 & 0.0001 & 100.0 & 0.0004 \\
+MetaGPT*  &  93.3 & 0.0002 & 100.0 & 0.0001 & 100.0 & 0.0010 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+{
+  "framework": "crewai",
+  "task_id": "t6",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: Satya Nadella was the CEO of Microsoft in 2024.",
+  "latency_s": 7.367,
+  "prompt_tokens": 609,
+  "completion_tokens": 42,
+  "cost_usd": 0.000117,
+  "error": "",
+  "extra": {}
+}

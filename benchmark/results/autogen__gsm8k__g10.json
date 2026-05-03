@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "g10",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "First, we need to determine how many hours Tina works in total for the week. \n\nTina works 10 hours per day for 5 days:\n\\[\n10 \\text{ hours/day} \\times 5 \\text{ days} = 50 \\text{ hours}\n\\]\n\nNext, we need to calculate how many of those hours are overtime. Since Tina is eligible for overtime after 8 hours per shift, we can calculate her regular hours and overtime hours.\n\nRegular hours per day:\n\\[\n8 \\text{ hours}\n\\]\n\nOvertime hours per day:\n\\[\n10 \\text{ hours} - 8 \\text{ hours} = 2 \\text{ hours}\n\\]\n\nNow, we calculate the total regular hours and total overtime hours for the week.\n\nTotal regular hours for 5 days:\n\\[\n8 \\text{ hours/day} \\times 5 \\text{ days} = 40 \\text{ regular hours}\n\\]\n\nTotal overtime hours for 5 days:\n\\[\n2 \\text{ hours/day} \\times 5 \\text{ days} = 10 \\text{ overtime hours}\n\\]\n\nNext, we calculate Tina's earnings from regular hours and overtime hours.\n\nRegular pay:\n\\[\n40 \\text{ regular hours} \\times 18 \\text{ dollars/hour} = 720 \\text{ dollars}\n\\]\n\nOvertime pay:\nFirst, we need to calculate the overtime rate. The overtime rate is:\n\\[\n18 \\text{ dollars/hour} + \\frac{1}{2} \\times 18 \\text{ dollars/hour} = 18 \\text{ dollars/hour} + 9 \\text{ dollars/hour} = 27 \\text{ dollars/hour}\n\\]\n\nNow, we calculate the total overtime pay:\n\\[\n10 \\text{ overtime hours} \\times 27 \\text{ dollars/hour} = 270 \\text{ dollars}\n\\]\n\nFinally, we add the regular pay and the overtime pay to find the total earnings for the week:\n\\[\n720 \\text{ dollars} + 270 \\text{ dollars} = 990 \\text{ dollars}\n\\]\n\nFinal answer: 990\nTERMINATE",
+  "latency_s": 7.251,
+  "prompt_tokens": 99,
+  "completion_tokens": 447,
+  "cost_usd": 0.000283,
+  "error": "",
+  "extra": {}
+}

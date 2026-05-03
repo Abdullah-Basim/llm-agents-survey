@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "g8",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "Let's break down the problem step by step.\n\n1. **Initial Weight of the Box**: \n   - Ken places a box on the scale. We don't know the weight of the box itself, so let's denote it as \\( W \\) pounds.\n\n2. **Adding Jelly Beans**: \n   - Ken pours jelly beans into the box until the total weight reaches 2 pounds. \n   - Therefore, the weight of the jelly beans added is \\( 2 - W \\) pounds.\n   - Now, the total weight of the box is 2 pounds.\n\n3. **Adding Brownies**: \n   - Ken then adds enough brownies to triple the weight. \n   - The current weight is 2 pounds, so tripling it gives \\( 3 \\times 2 = 6 \\) pounds.\n   - The weight of the brownies added is \\( 6 - 2 = 4 \\) pounds.\n   - Now, the total weight of the box is 6 pounds.\n\n4. **Adding More Jelly Beans**: \n   - Ken adds another 2 pounds of jelly beans.\n   - The new total weight becomes \\( 6 + 2 = 8 \\) pounds.\n\n5. **Adding Gummy Worms**: \n   - Finally, Ken adds enough gummy worms to double the weight.\n   - The current weight is 8 pounds, so doubling it gives \\( 2 \\times 8 = 16 \\) pounds.\n   - The weight of the gummy worms added is \\( 16 - 8 = 8 \\) pounds.\n   - Now, the total weight of the box is 16 pounds.\n\nThus, the final weight of the box of goodies is 16 pounds.\n\nFinal answer: 16",
+  "latency_s": 5.295,
+  "prompt_tokens": 136,
+  "completion_tokens": 356,
+  "cost_usd": 0.000234,
+  "error": "",
+  "extra": {}
+}

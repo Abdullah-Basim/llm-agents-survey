@@ -1,0 +1,5 @@
+framework,accuracy,avg_latency_s,avg_cost_usd,avg_input_tokens,avg_output_tokens,n
+crewai,100.0,5.38,0.0002,553,198,26
+autogen,96.2,4.55,0.00016,176,219,26
+langgraph,92.3,4.29,0.00016,212,207,26
+metagpt,96.2,4.39,0.00017,232,223,26

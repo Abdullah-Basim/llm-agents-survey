@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "t9",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: 720",
+  "latency_s": 1.898,
+  "prompt_tokens": 289,
+  "completion_tokens": 26,
+  "cost_usd": 5.9e-05,
+  "error": "",
+  "extra": {}
+}

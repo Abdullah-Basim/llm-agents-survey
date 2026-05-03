@@ -1,0 +1,13 @@
+{
+  "framework": "crewai",
+  "task_id": "g4",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "Final answer: 42",
+  "latency_s": 3.558,
+  "prompt_tokens": 417,
+  "completion_tokens": 155,
+  "cost_usd": 0.000156,
+  "error": "",
+  "extra": {}
+}

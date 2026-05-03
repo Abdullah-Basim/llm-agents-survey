@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "g14",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "To calculate Eliza's earnings for the week, we need to break it down into her regular hours and her overtime hours.\n\n1. **Regular Hours**: Eliza works 40 hours at a rate of $10 per hour.\n   \\[\n   \\text{Regular Earnings} = \\text{Regular Hours} \\times \\text{Regular Rate}\n   \\]\n   \\[\n   \\text{Regular Earnings} = 40 \\, \\text{hours} \\times 10 \\, \\text{dollars/hour} = 400 \\, \\text{dollars}\n   \\]\n\n2. **Overtime Hours**: Eliza worked a total of 45 hours, so her overtime hours are:\n   \\[\n   \\text{Overtime Hours} = \\text{Total Hours} - \\text{Regular Hours}\n   \\]\n   \\[\n   \\text{Overtime Hours} = 45 \\, \\text{hours} - 40 \\, \\text{hours} = 5 \\, \\text{hours}\n   \\]\n\n3. **Overtime Rate**: Eliza's overtime pay is 1.2 times her regular hourly rate.\n   \\[\n   \\text{Overtime Rate} = 1.2 \\times \\text{Regular Rate}\n   \\]\n   \\[\n   \\text{Overtime Rate} = 1.2 \\times 10 \\, \\text{dollars/hour} = 12 \\, \\text{dollars/hour}\n   \\]\n\n4. **Overtime Earnings**: Now we calculate her earnings from overtime.\n   \\[\n   \\text{Overtime Earnings} = \\text{Overtime Hours} \\times \\text{Overtime Rate}\n   \\]\n   \\[\n   \\text{Overtime Earnings} = 5 \\, \\text{hours} \\times 12 \\, \\text{dollars/hour} = 60 \\, \\text{dollars}\n   \\]\n\n5. **Total Earnings**: Finally, we add her regular earnings and overtime earnings to find her total earnings for the week.\n   \\[\n   \\text{Total Earnings} = \\text{Regular Earnings} + \\text{Overtime Earnings}\n   \\]\n   \\[\n   \\text{Total Earnings} = 400 \\, \\text{dollars} + 60 \\, \\text{dollars} = 460 \\, \\text{dollars}\n   \\]\n\nFinal answer: 460  \nTERMINATE",
+  "latency_s": 8.667,
+  "prompt_tokens": 93,
+  "completion_tokens": 517,
+  "cost_usd": 0.000324,
+  "error": "",
+  "extra": {}
+}

@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "t10",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: Canberra",
+  "latency_s": 2.639,
+  "prompt_tokens": 422,
+  "completion_tokens": 25,
+  "cost_usd": 7.8e-05,
+  "error": "",
+  "extra": {}
+}

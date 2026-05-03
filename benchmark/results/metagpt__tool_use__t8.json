@@ -1,0 +1,13 @@
+{
+  "framework": "metagpt",
+  "task_id": "t8",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "It seems that I couldn't find any results for that query. However, I can provide the information: the novel \"To Kill a Mockingbird\" was written by Harper Lee. \n\nFinal answer: Harper Lee",
+  "latency_s": 4.201,
+  "prompt_tokens": 266,
+  "completion_tokens": 68,
+  "cost_usd": 8.1e-05,
+  "error": "",
+  "extra": {}
+}

@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "g6",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "To solve the problem, we will break it down step by step.\n\n1. **Identify the number of yellow flowers**: \n   Mark has 10 yellow flowers.\n\n2. **Calculate the number of purple flowers**: \n   The problem states that there are 80% more purple flowers than yellow flowers. \n   To find the number of purple flowers, we first calculate 80% of the number of yellow flowers:\n   \\[\n   80\\% \\text{ of } 10 = 0.8 \\times 10 = 8\n   \\]\n   Now, we add this to the number of yellow flowers to find the total number of purple flowers:\n   \\[\n   \\text{Number of purple flowers} = 10 + 8 = 18\n   \\]\n\n3. **Calculate the total number of yellow and purple flowers**: \n   Now we add the number of yellow and purple flowers together:\n   \\[\n   \\text{Total yellow and purple flowers} = 10 + 18 = 28\n   \\]\n\n4. **Calculate the number of green flowers**: \n   The problem states that there are only 25% as many green flowers as there are yellow and purple flowers. \n   To find the number of green flowers, we calculate 25% of the total number of yellow and purple flowers:\n   \\[\n   25\\% \\text{ of } 28 = 0.25 \\times 28 = 7\n   \\]\n\n5. **Calculate the total number of flowers in the garden**: \n   Finally, we add the number of yellow, purple, and green flowers together to find the total number of flowers in Mark's garden:\n   \\[\n   \\text{Total flowers} = 10 + 18 + 7 = 35\n   \\]\n\nFinal answer: 35",
+  "latency_s": 5.214,
+  "prompt_tokens": 100,
+  "completion_tokens": 382,
+  "cost_usd": 0.000244,
+  "error": "",
+  "extra": {}
+}

@@ -1,0 +1,13 @@
+{
+  "framework": "autogen",
+  "task_id": "g4",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "Let's break down the problem step by step.\n\n1. **Total pages in the book**: 120 pages.\n2. **Pages read yesterday**: 12 pages.\n3. **Pages read today**: Since she read twice as many pages as yesterday, we calculate:\n   \\[\n   \\text{Pages read today} = 2 \\times 12 = 24 \\text{ pages}\n   \\]\n\n4. **Total pages read so far**: We add the pages read yesterday and today:\n   \\[\n   \\text{Total pages read} = 12 + 24 = 36 \\text{ pages}\n   \\]\n\n5. **Remaining pages**: We subtract the total pages read from the total pages in the book:\n   \\[\n   \\text{Remaining pages} = 120 - 36 = 84 \\text{ pages}\n   \\]\n\n6. **Pages Julie wants to read tomorrow**: She wants to read half of the remaining pages:\n   \\[\n   \\text{Pages to read tomorrow} = \\frac{84}{2} = 42 \\text{ pages}\n   \\]\n\nFinal answer: 42  \nTERMINATE",
+  "latency_s": 3.756,
+  "prompt_tokens": 86,
+  "completion_tokens": 241,
+  "cost_usd": 0.000157,
+  "error": "",
+  "extra": {}
+}

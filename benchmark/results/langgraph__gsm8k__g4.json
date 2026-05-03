@@ -1,0 +1,13 @@
+{
+  "framework": "langgraph",
+  "task_id": "g4",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "Let's break down the problem step by step.\n\n1. **Total pages in the book**: Julie's book has 120 pages.\n\n2. **Pages read yesterday**: Julie read 12 pages yesterday.\n\n3. **Pages read today**: Today, she read twice as many pages as she did yesterday. \n   \\[\n   \\text{Pages read today} = 2 \\times 12 = 24 \\text{ pages}\n   \\]\n\n4. **Total pages read so far**: We need to add the pages she read yesterday and today.\n   \\[\n   \\text{Total pages read} = 12 + 24 = 36 \\text{ pages}\n   \\]\n\n5. **Remaining pages**: To find out how many pages are left to read, we subtract the total pages read from the total pages in the book.\n   \\[\n   \\text{Remaining pages} = 120 - 36 = 84 \\text{ pages}\n   \\]\n\n6. **Pages to read tomorrow**: Julie wants to read half of the remaining pages tomorrow.\n   \\[\n   \\text{Pages to read tomorrow} = \\frac{84}{2} = 42 \\text{ pages}\n   \\]\n\nThus, the number of pages Julie should read tomorrow is 42.\n\nFinal answer: 42",
+  "latency_s": 4.572,
+  "prompt_tokens": 87,
+  "completion_tokens": 272,
+  "cost_usd": 0.000176,
+  "error": "",
+  "extra": {}
+}

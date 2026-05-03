@@ -1,0 +1,13 @@
+{
+  "framework": "metagpt",
+  "task_id": "t1",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: 7006652",
+  "latency_s": 2.576,
+  "prompt_tokens": 258,
+  "completion_tokens": 26,
+  "cost_usd": 5.4e-05,
+  "error": "",
+  "extra": {}
+}

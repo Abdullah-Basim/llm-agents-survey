@@ -1,0 +1,13 @@
+{
+  "framework": "metagpt",
+  "task_id": "g10",
+  "task_category": "gsm8k",
+  "success": true,
+  "output": "To calculate Tina's total earnings for the week, we need to break down her regular hours and overtime hours.\n\n1. **Regular Hours**: Tina works 8 hours per day at her regular hourly wage.\n   - Regular hourly wage = $18.00\n   - Regular hours per day = 8 hours\n   - Total regular hours for 5 days = 8 hours/day * 5 days = 40 hours\n\n2. **Overtime Hours**: Tina works 10 hours per day, which means she has 2 hours of overtime each day.\n   - Overtime hours per day = 10 hours - 8 hours = 2 hours\n   - Total overtime hours for 5 days = 2 hours/day * 5 days = 10 hours\n\n3. **Overtime Pay**: Overtime is paid at the rate of regular hourly wage + 1/2 of the regular hourly wage.\n   - Overtime pay rate = $18.00 + ($18.00 / 2) = $18.00 + $9.00 = $27.00\n\n4. **Total Earnings**:\n   - Total earnings from regular hours = Regular hours * Regular hourly wage\n     = 40 hours * $18.00 = $720.00\n   - Total earnings from overtime hours = Overtime hours * Overtime pay rate\n     = 10 hours * $27.00 = $270.00\n\n5. **Total Earnings for the Week**:\n   - Total earnings = Earnings from regular hours + Earnings from overtime hours\n     = $720.00 + $270.00 = $990.00\n\nFinal answer: 990.00",
+  "latency_s": 4.603,
+  "prompt_tokens": 103,
+  "completion_tokens": 344,
+  "cost_usd": 0.000222,
+  "error": "",
+  "extra": {}
+}

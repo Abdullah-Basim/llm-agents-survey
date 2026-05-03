@@ -1,0 +1,13 @@
+{
+  "framework": "crewai",
+  "task_id": "t10",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: The capital of Australia is Canberra, which is also the seat of the national government.",
+  "latency_s": 2.854,
+  "prompt_tokens": 572,
+  "completion_tokens": 41,
+  "cost_usd": 0.00011,
+  "error": "",
+  "extra": {}
+}

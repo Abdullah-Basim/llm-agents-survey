@@ -1,0 +1,13 @@
+{
+  "framework": "crewai",
+  "task_id": "t2",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: 156033",
+  "latency_s": 1.885,
+  "prompt_tokens": 453,
+  "completion_tokens": 34,
+  "cost_usd": 8.8e-05,
+  "error": "",
+  "extra": {}
+}

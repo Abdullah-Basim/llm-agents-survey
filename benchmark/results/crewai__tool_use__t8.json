@@ -1,0 +1,13 @@
+{
+  "framework": "crewai",
+  "task_id": "t8",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: Harper Lee",
+  "latency_s": 9.702,
+  "prompt_tokens": 1330,
+  "completion_tokens": 73,
+  "cost_usd": 0.000243,
+  "error": "",
+  "extra": {}
+}

@@ -1,0 +1,13 @@
+{
+  "framework": "crewai",
+  "task_id": "t7",
+  "task_category": "tool_use",
+  "success": true,
+  "output": "Final answer: Lahore is located in Pakistan.",
+  "latency_s": 2.713,
+  "prompt_tokens": 579,
+  "completion_tokens": 33,
+  "cost_usd": 0.000107,
+  "error": "",
+  "extra": {}
+}
